@@ -87,7 +87,7 @@ The strict equality operator (===) checks the values AND types of the variables.
 
 17. The output of the function will be [2,4,6]. Starting with modifyArray, it takes in an array and a callback. It creates a new array, newArr, with type const. The for loop will iterate through all of the elements of the passed-in array, [1,2,3], and push the values of the result of each elements as a parameter for the callback function, doSomething. doSomething multiplies the passed-in element by 2, so the values that will be pushed to the newArr will be 2 (1*2), 4 (2*2), and 6 (3*2). It will then return the newArr.
 
-19. The output will be 1 4 3 2. The console.log statements will be printed out first (1 and 4), then the setTimeout statement with the least time (3), then the next setTimeout statement (2).
+19. (Question 19) The output will be 1 4 3 2. The console.log statements will be printed out first (1 and 4), then the setTimeout statement with the least time (3), then the next setTimeout statement (2).
 
 
 
