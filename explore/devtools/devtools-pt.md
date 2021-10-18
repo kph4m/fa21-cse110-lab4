@@ -1,2 +1,0 @@
-1. The values of num1 and num2 are data type String. The variable result concatenates the strings.
-2. To fix this problem, we would simply just need to convert the values of num1 and num2 to a Number data type instead of a String data type.
